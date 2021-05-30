@@ -95,18 +95,18 @@ ul li:last-child {
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.411);
 }
 
-#appleI-link {
+#apple-i-link {
   cursor: pointer;
   color: rgb(69, 109, 238);
   text-decoration: underline;
   position: relative;
 }
 
-#appleI-link:hover img {
+#apple-i-link:hover img {
   display: block;
 }
 
-#appleI-img {
+#apple-i-img {
   display: none;
   height: 175px;
   position: absolute;
@@ -116,18 +116,18 @@ ul li:last-child {
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.411);
 }
 
-#appleII-link {
+#apple-ii-link {
   cursor: pointer;
   color: rgb(69, 109, 238);
   text-decoration: underline;
   position: relative;
 }
 
-#appleII-link:hover img {
+#apple-ii-link:hover img {
   display: block;
 }
 
-#appleII-img {
+#apple-ii-img {
   display: none;
   height: 175px;
   position: absolute;
