@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#intro p {
+  margin-bottom: 10px;
+}
+
+#title-text {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#steve-intro-image {
+  align-self: center;
+  border-radius: 15px;
+  height: 35vh;
+  width: auto;
+}
+
+#quote-div {
+  background-color: white;
+  border-radius: 3px;
+  width: 75%;
+  margin: auto;
+  padding: 0.4%;
+  text-align: center;
+}
+
+#main-content {
+  display: flex;
+}
+
+#contributions-div, #personal-life-div {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  margin: 0px 0px 5px 10px;
+  padding: 0px 20px;
+  border-radius: 3px;
+}
+
+#contributions-title, #personal-life-div > h2 {
+  padding: 10px 0px 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 13.5px;
+}
+
+ul li:last-child {
+  padding-bottom: 15px;
+}
+
+#steve-bluebox-link {
+  cursor: pointer;
+  color: rgb(69, 109, 238);
+  text-decoration: underline;
+  position: relative;
+}
+
+#steve-bluebox-link:hover img {
+  display: block;
+}
+
+#bluebox-img {
+  display: none;
+  height: 175px;
+  position: absolute;
+  top: -185px;
+  left: -65px;
+  border: 2px solid whitesmoke;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.411);
+}
+
+#appleI-link {
+  cursor: pointer;
+  color: rgb(69, 109, 238);
+  text-decoration: underline;
+  position: relative;
+}
+
+#appleI-link:hover img {
+    display: block;
+}
+
+#appleI-img {
+  display: none;
+  height: 175px;
+  position: absolute;
+  top: -190px;
+  left: -80px;
+  border: 2px solid whitesmoke;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.411);
+}
+
+#appleII-link {
+  cursor: pointer;
+  color: rgb(69, 109, 238);
+  text-decoration: underline;
+  position: relative;
+}
+
+#appleII-link:hover img {
+  display: block;
+}
+
+#appleII-img {
+  display: none;
+  height: 175px;
+  position: absolute;
+  top: -190px;
+  left: -80px;
+  border: 2px solid whitesmoke;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.411);
+}
+
+
