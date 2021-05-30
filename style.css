@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   border: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -46,18 +46,20 @@ body {
   display: flex;
 }
 
-#contributions-div, #personal-life-div {
+#contributions-div,
+#personal-life-div {
   background-color: white;
   height: 100%;
   width: 50%;
   text-align: center;
-  margin: 0px 0px 5px 10px;
-  padding: 0px 20px;
+  margin: 0 0 5px 10px;
+  padding: 0 20px;
   border-radius: 3px;
 }
 
-#contributions-title, #personal-life-div > h2 {
-  padding: 10px 0px 25px;
+#contributions-title,
+#personal-life-div > h2 {
+  padding: 10px 0 25px;
 }
 
 ul {
@@ -101,7 +103,7 @@ ul li:last-child {
 }
 
 #appleI-link:hover img {
-    display: block;
+  display: block;
 }
 
 #appleI-img {
@@ -134,5 +136,3 @@ ul li:last-child {
   border: 2px solid whitesmoke;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.411);
 }
-
-
