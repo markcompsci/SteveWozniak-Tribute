@@ -1,0 +1,20 @@
+{
+    "name": "stevewozniak-tribute",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts",
+        "assets.json"
+    ],
+    "targetVersions": {
+        "target": "1.4.43",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
